@@ -114,18 +114,27 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <strong>Requirements:</strong>
+  <ul>
+    <li>Particpants must either:</li>
+    <ul>
+      <li>bring a laptop with a Mac, Linux, or Windows operating system 
+      (not a tablet, Chromebook, etc.) that they have administrative privileges
+      on. They should have a few specific software packages installed (listed
+      <a href="#setup">below</a>).</li>
+      <li>contact us in advance, so that we may make alternative arrangments
+      for you.</li>
+    </ul>
+    <li>Particpants are also required to abide by
+    {% if page.carpentry == "swc" %}
+    Software Carpentry's
+    {% elsif page.carpentry == "dc" %}
+    Data Carpentry's
+    {% elsif page.carpentry == "lc" %}
+    Library Carpentry's
+    {% endif %}
+    <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.</li>
+  </ul>
 </p>
 
 {% comment %}
