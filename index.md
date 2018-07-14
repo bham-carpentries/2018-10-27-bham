@@ -46,6 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+<p><strong>This workshop is full. Only those with a confirmed place may attend.</strong></p>
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
