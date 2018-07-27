@@ -217,6 +217,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+<p>The links below are to the material taught from during the course.</p>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
