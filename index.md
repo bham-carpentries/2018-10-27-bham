@@ -118,15 +118,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="requirements">
   <strong>Requirements:</strong>
   <ul>
-    <li>Particpants must either:</li>
-    <ul>
-      <li>bring a laptop with a Mac, Linux, or Windows operating system 
-      (not a tablet, Chromebook, etc.) that they have administrative privileges
-      on. They should have a few specific software packages installed (listed
-      <a href="#setup">below</a>).</li>
-      <li>contact us in advance, so that we may make alternative arrangments
-      for you.</li>
-    </ul>
+    <li>Particpants must bring a laptop with a Mac, Linux, or Windows operating system 
+      (not a tablet, Chromebook, etc.). They should have a few specific software packages 
+      installed (listed <a href="#setup">below</a>).
     <li>Particpants are also required to abide by
     {% if page.carpentry == "swc" %}
     Software Carpentry's
